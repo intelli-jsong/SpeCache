@@ -35,8 +35,8 @@
 To reproduce the results in the paper, you need to set up the environment as follows with a single A100 GPU:
 ```bash
 # create env
-conda create -n ShadowKV python=3.10 -y
-conda activate ShadowKV
+conda create -n SpeCache python=3.10 -y
+conda activate SpeCache
 
 # install packages
 pip install -r requirements.txt
