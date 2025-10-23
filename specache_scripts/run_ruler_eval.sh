@@ -1,0 +1,3 @@
+bash specache_scripts/run_ruler_full_eval.sh
+bash specache_scripts/run_ruler_specache_1bit_eval.sh
+bash specache_scripts/run_ruler_specache_2bit_eval.sh

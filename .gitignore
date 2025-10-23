@@ -1,0 +1,11 @@
+*.DS_Store
+build/
+3rdparty/
+*.pyc
+*.so
+*.jsonl
+debug/
+archive/
+ruler_pred/
+longbench_pred/
+longbench_specache_hitrate/

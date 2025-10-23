@@ -1,0 +1,11 @@
+quant_k_bit: 1 # 2 or 1 bit
+quant_k_mode: channel # 'channel' or 'token'
+
+quant_v_bit: 1 # 2 or 1 bit
+quant_v_mode: token # 'channel' or 'token'
+
+do_specache_quant: true
+quant_group_size: 64 # 32 or 64
+quant_resuidual: 64  # (4.1. Implementation Details) we use a smaller residual length of 64
+arg_top_k: 64        # (4.1. Implementation Details) we prefetch top-64 16-bit KV pairs from CPU memory
+cpu_mode: false      # Offload 16-bit KV cache to CPU memory or not
